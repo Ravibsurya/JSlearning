@@ -1,7 +1,7 @@
 console.log(`-------------------------------STEP 1---------------------------------`);
 var greaterNumber=function(num1,num2){
     var result = num1 > num2 ? num1 : num2;
-    console.log(`The Greater Number is := ${result}`);    
+    console.log(`The Greater Number is := ${result}`);  
 }
 greaterNumber(10,-10);
 greaterNumber(800,899);
