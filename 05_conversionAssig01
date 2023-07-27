@@ -1,0 +1,37 @@
+console.log("------------------------------- Implicit Conversion To String------------------------------------");
+result = '3'+ 2;
+console.log(result); // "32"
+console.log("Result is 32 because 2 is number type implicity converted into string");
+result = '3'+ true;
+console.log(result); // "3true"
+console.log("Result is 3true because true is Boolean type is implicity converted into string");
+result = '3'+ undefined;
+console.log(result); // "3undefined"
+console.log("Result is 3undefined because undefined is implicity converted into string");
+result = '3'+ null;
+console.log(result); // "3null"
+console.log("Result is 3null because null is implicity converted into string");
+console.log("--------------------------- Implicit String Conversion To Number -------------------------------");
+result = '4'- '2';
+console.log(result); // 2
+console.log("Result is 2 it is converted into number implicity");
+result = '4'-2;
+console.log(result); // 2
+console.log("Result is 2 it is converted into number implicity");
+result = '4'*2;
+console.log(result); // 8
+console.log("Result is 8 it is converted into number implicity");
+result = '4'/ 2 ;
+console.log(result); // 2 
+console.log("Result is 2 it is converted to number implicity");
+console.log("------------------------- Implicit Boolean Conversion To Number -----------------------------");
+result = '4'- true;
+console.log(result); // 3
+console.log("Result is 3 because '4' is string converted into number,true is 1");
+result = 4 + true;
+console.log(result); // 5
+console.log("Result is 5 because true is 1,It is implicity converted into number");
+result = 4 + false;
+console.log(result); // 4
+console.log("Result is 4 because false is 0,It is implicity converted into number");
+console.log("**********************************************************************************************");

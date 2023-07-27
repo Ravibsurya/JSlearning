@@ -1,0 +1,23 @@
+console.log("----------------------------------------------------------");
+var num1 = 0 == ''
+console.log(`${num1}`);
+console.log("space is coverted into number and the result is true");
+var num2 = 0 == '0'
+console.log(`${num2}`);
+console.log("0 is coverted into string and the result is true");
+var num3 = 0 == false
+console.log(`${num3}`);
+console.log("false get coverted into number 0, result is true");
+var num4 = null == undefined
+console.log(`${num4}`);
+console.log("result is true because both having different types");
+var num5 = 1 == [1]
+console.log(`${num5}`);
+console.log("result is true ,both having same type that is number");
+var num6 = 1 == true
+console.log(`${num6}`);
+console.log("true get converted into number 1 ,result is true");
+var num7 = 1 == '1'
+console.log(`${num7}`);
+console.log("'1' get converted into number result is true");
+console.log("----------------------------------------------------------");
