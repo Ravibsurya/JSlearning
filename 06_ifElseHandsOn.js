@@ -24,11 +24,11 @@ function checkStringLenght(string){
 checkStringLenght("javaScript - ES6");
 console.log("-------------------- Step3 ---------------------------------------------------------------------------");
 function checkStringStart(value1){
-var word = value1.startsWith("java");
+var word = value1.startsWith("Java");
 if (word) {
-    console.log(`${value1} string start with "java"`);
+    console.log(`${value1} string start with "Java"`);
 } else {
-    console.log(`${value1} string not start with "java"`);
+    console.log(`${value1} string not start with "Java"`);
 }
 }
 checkStringStart("JavaScript Language");
