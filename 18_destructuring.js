@@ -30,6 +30,6 @@ console.log(state, city ,college, pin);
 
 let array = [4, 5, 6, 77, 88, 99];
 
-let [num1, num2, num3, num4=0] = array;
+let [num1, num2, num3,num4,num5,num6,num7=0] = array;
 
-console.log(num1, num2, num3, num4);
+console.log(num1, num2, num3,num4,num5,num6,num7);

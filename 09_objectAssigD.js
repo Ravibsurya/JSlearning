@@ -12,7 +12,6 @@ let professor = {
     }
   },
   certificates : ["Hacker Rank participation", "IFE course", "Adv Programming" ]
-
 }
 
 professor.totalExperience = "14 years";
